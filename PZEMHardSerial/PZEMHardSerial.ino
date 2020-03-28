@@ -41,7 +41,6 @@ void baca_pzem(){
 }
 
 String test_at(String cmd){
-    int i;
     String bufAT, resAT;
     Serial.println(cmd);
     Serial1.println(cmd);delay(100);
